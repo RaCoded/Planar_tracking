@@ -13,18 +13,18 @@ This project implements **real-time planar tracking** in a video using **SIFT ke
 
 ## Folder Structure
 
-Planar_tracking/
-│
-├── dossier_calibration/
-│ └── camera_calibration.npz # Camera intrinsics
-│
-├── dossier_travail/
-│ ├── Clown2.mp4 # Input video
-│ ├── reference.jpg # Reference image
-│ └── output_video.avi # Output with visual overlays
-│
-├── Traitement_basique.py # Custom basic processing module
-└── main.py # Main tracking script
+Planar_tracking/  
+├── dossier_calibration/  
+│   └── camera_calibration.npz       # Camera intrinsics  
+│  
+├── dossier_travail/  
+│   ├── Clown2.mp4                   # Input video  
+│   ├── reference.jpg                # Reference image  
+│   └── output_video.avi             # Output with visual overlays  
+│  
+├── Traitement_basique.py            # Custom basic processing module  
+└── main.py                         # Main tracking script  
+
 
 
 ## How It Works
@@ -63,3 +63,4 @@ This method is sensitive to lighting changes, occlusions, or severe motion blur.
 ## 🎥 Demo
 
 ![Planar Tracking Demo](output.gif)
+
