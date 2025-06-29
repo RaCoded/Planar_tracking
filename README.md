@@ -15,12 +15,10 @@ This project implements **real-time planar tracking** in a video using **SIFT ke
 
 Planar_tracking/  
 ├── dossier_calibration/  
-│   └── camera_calibration.npz       # Camera intrinsics  
+│   └── Place calibration target images here  
 │  
 ├── dossier_travail/  
-│   ├── Clown2.mp4                   # Input video  
-│   ├── reference.jpg                # Reference image  
-│   └── output_video.avi             # Output with visual overlays  
+│   ├── Place your input video here  
 │  
 ├── Traitement_basique.py            # Custom basic processing module  
 └── main.py                         # Main tracking script  
